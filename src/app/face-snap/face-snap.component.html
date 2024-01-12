@@ -2,6 +2,7 @@
     <p>{{ 4346234.6136 | number: '1.0-2' }}</p>
     <p>{{ 0.089 | percent : '1.0-2' }}</p>
     <p>{{ 128.56 | currency: '1.0-1' : 'MGA' }}</p>
+
     <h2>{{ faceSnap.title | titlecase }}</h2>
     <p>Mis en ligne le {{ faceSnap.createdDate | date : 'dd/MM/yyyy HH' }}</p>
     <img [src]="faceSnap.imageUrl"  [alt]="faceSnap.title">
